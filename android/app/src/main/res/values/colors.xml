@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#7C3AED</color>
+    <color name="purple_primary_dark">#6D28D9</color>
+    <color name="purple_accent">#A78BFA</color>
+    <color name="purple_light">#DDD6FE</color>
+
+    <color name="slate_900">#0F172A</color>
+    <color name="slate_800">#1E293B</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_100">#F1F5F9</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="emerald_green">#10B981</color>
+    <color name="rose_red">#F43F5E</color>
+    <color name="amber_orange">#F59E0B</color>
+
+    <color name="overlay_bubble_gradient_start">#9333EA</color>
+    <color name="overlay_bubble_gradient_end">#4F46E5</color>
+</resources>

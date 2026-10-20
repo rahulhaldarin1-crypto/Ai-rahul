@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/ivBubbleMic"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/overlay_bubble_bg"
+        android:elevation="8dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_floating_mic"
+        android:contentDescription="@string/app_name" />
+
+</FrameLayout>

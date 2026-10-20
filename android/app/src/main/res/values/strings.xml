@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Pooja Assistant</string>
+    <string name="app_subtitle">আপনার ব্যক্তিগত এআই ভয়েস সহকারী</string>
+    <string name="accessibility_service_label">Pooja AI Voice Service</string>
+    <string name="accessibility_service_description">Pooja Assistant provides floating voice mic activation and screen reading capabilities to automate actions across your smartphone.</string>
+
+    <!-- Permissions -->
+    <string name="permissions_header">প্রয়োজনীয় অনুমতিসমূহ (Permissions)</string>
+    <string name="audio_permission_title">মাইক্রোফোন অনুমতি (Microphone)</string>
+    <string name="audio_permission_desc">বাংলা ও ইংরেজি ভয়েস নির্দেশ শোনার জন্য প্রয়োজনীয়।</string>
+    <string name="audio_permission_required">ভয়েস শোনার জন্য মাইক্রোফোন অনুমতি আবশ্যক।</string>
+    <string name="overlay_permission_title">অন্যান্য অ্যাপের উপর প্রদর্শন (Draw Overlays)</string>
+    <string name="overlay_permission_desc">যেকোনো স্ক্রিন থেকে দ্রুত কথা বলার জন্য ফ্লোটিং বাটন।</string>
+    <string name="overlay_permission_explanation">পূজা অ্যাসিস্ট্যান্টের ফ্লোটিং মাইক বাটনটি যেকোনো অ্যাপের উপরে সক্রিয় রাখতে ডিসপ্লে ওভারলে অনুমতি প্রয়োজন।</string>
+    <string name="accessibility_title">অ্যাক্সেসিবিলিটি সার্ভিস (Accessibility Service)</string>
+    <string name="accessibility_desc">স্ক্রিন পড়ে শোনানো ও সরাসরি অ্যাপ নিয়ন্ত্রণের জন্য।</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_grant_permissions">অনুমতি প্রদান করুন</string>
+    <string name="btn_enable_overlay">ওভারলে সক্রিয় করুন</string>
+    <string name="btn_enable_accessibility">অ্যাক্সেসিবিলিটি চালু করুন</string>
+    <string name="btn_test_voice">পূজার সাথে কথা বলুন (Test Voice)</string>
+    <string name="enable_now">অনুমতি দিন</string>
+    <string name="cancel">বাতিল</string>
+
+    <!-- Status -->
+    <string name="status_granted">অনুমোদিত (Granted)</string>
+    <string name="status_not_granted">অনুমতি বাকি (Missing)</string>
+    <string name="status_active">সক্রিয় (Active)</string>
+    <string name="status_inactive">নিষ্ক্রিয় (Inactive)</string>
+    <string name="all_systems_ready">পূজা সম্পূর্ণ প্রস্তুত!</string>
+    <string name="ready_hint">স্ক্রিনের ফ্লোটিং আইকনে ট্যাপ করে কথা বলুন।</string>
+
+    <!-- Assistant Prompts -->
+    <string name="pooja_is_listening_prompt">পূজা শুনছে... বলুন!</string>
+    <string name="speech_error_retry">দুঃখিত, শুনতে পারিনি। দয়া করে আবার বলুন।</string>
+    <string name="gemini_empty_response">দুঃখিত, কোনো উত্তর পাওয়া যায়নি।</string>
+    <string name="no_screen_content_found">স্ক্রিনে কোনো বিষয়বস্তু পাওয়া যায়নি।</string>
+    <string name="no_readable_text_found">পড়ার মতো কোনো লেখা পাওয়া যায়নি।</string>
+    <string name="find_and_enable_pooja">তালিকা থেকে "Pooja AI Voice Service" খুঁজে চালু করুন।</string>
+    <string name="please_enable_accessibility_first">প্রথমে অ্যাক্সেসিবিলিটি সার্ভিস চালু করুন।</string>
+    <string name="accessibility_service_not_running">সার্ভিসটি এখনো সক্রিয় হয়নি।</string>
+</resources>

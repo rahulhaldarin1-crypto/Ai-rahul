@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Circle -->
+    <path
+        android:fillColor="#7C3AED"
+        android:pathData="M54,4 C81.61,4 104,26.39 104,54 C104,81.61 81.61,104 54,104 C26.39,104 4,81.61 4,54 C4,26.39 26.39,4 54,4 Z" />
+    <!-- Inner Radiant Core -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M54,12 C77.2,12 96,30.8 96,54 C96,77.2 77.2,96 54,96 C30.8,96 12,77.2 12,54 C12,30.8 30.8,12 54,12 Z" />
+    <!-- Microphone Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26 C47.37,26 42,31.37 42,38 L42,54 C42,60.63 47.37,66 54,66 C60.63,66 66,60.63 66,54 L66,38 C66,31.37 60.63,26 54,26 Z" />
+    <!-- Microphone Cradle -->
+    <path
+        android:fillColor="#DDD6FE"
+        android:pathData="M72,50 C72,59.94 63.94,68 54,68 C44.06,68 36,59.94 36,50 L32,50 C32,61.4 40.71,70.76 51.8,71.86 L51.8,80 L44,80 L44,84 L64,84 L64,80 L56.2,80 L56.2,71.86 C67.29,70.76 76,61.4 76,50 L72,50 Z" />
+    <!-- Bengali / AI Sparkle Star -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,24 L80,30 L86,32 L80,34 L78,40 L76,34 L70,32 L76,30 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Pooja Assistant - Android Voice AI Studio",
+  "description": "Production-ready Android Voice Assistant app with Bengali/English speech recognition, Gemini AI integration, Accessibility Service automation, and floating overlay.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
