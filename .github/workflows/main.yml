@@ -22,8 +22,26 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
-    - name: Build with Gradle
-      run: gradle assembleDebug --stacktrace
+    - name: Locate Project and Build APK
+      run: |
+        # settings.gradle ফাইলটি কোন ফোল্ডারে আছে তা খুঁজে বের করা
+        SETTINGS_FILE=$(find . -name "settings.gradle*" | head -n 1)
+        
+        if [ -n "$SETTINGS_FILE" ]; then
+          TARGET_DIR=$(dirname "$SETTINGS_FILE")
+          echo "Project found in directory: $TARGET_DIR"
+          cd "$TARGET_DIR"
+        else
+          echo "No settings.gradle found, building in root"
+        fi
+
+        # gradlew থাকলে তা দিয়ে চালাবে, নাহলে সিস্টেম gradle দিয়ে চালাবে
+        if [ -f "./gradlew" ]; then
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --stacktrace
+        else
+          gradle assembleDebug --stacktrace
+        fi
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
